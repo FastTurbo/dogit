@@ -1,0 +1,17 @@
+{
+  "name": "browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "watchify app.js -o boundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "watchify": "^3.6.1"
+  }
+}
